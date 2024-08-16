@@ -1,0 +1,16 @@
+%%程序的默认设定
+1、SetupRand.m设计随机种子，值得学习，可以在自己的程序中使用。
+2、SetupKeyCodes.m设定特定键的键值，值得学习，可以在自己的程序中使用
+
+%%一些函数的定义
+3、n2s.m只是num2str的简写
+4、isodd.m只是用来判断数值的奇偶
+5、NormDeg.m用来正则化角度，将角度规定到0-359.9999之间
+6、new_line.m将命令符下移一行
+7、InvertContrast.m将黑白位置转化
+8、CurrentSession.m输出当前session的名字和序号
+
+%%特定刺激的生成
+9、cross_matrix.m生成一个二值的十字注视点。
+10、GenCheckerboard.m为Checkboard的生成设定参数
+11、RadialCheckerBoard.m具体生成checkboard
